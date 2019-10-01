@@ -1,0 +1,322 @@
+/*
+Site de psicologia 
+autor : Dalton Ramiro
+fonte: Alegreya Sans
+*/
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+}
+
+body ul.nav {
+  font-size: 20px;
+  background-color: rgba(171, 206, 201, 0.849);
+  margin-top: 10px;
+}
+
+body .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 230px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .banner img.bannerimg {
+  width: 100%;
+  opacity: 0.7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 5px;
+}
+
+body .banner .texttag {
+  opacity: 0.8;
+  position: absolute;
+  top: 5px;
+}
+
+body .banner .texttag h1 {
+  font-size: 20px;
+}
+
+body section.explicativo {
+  height: auto;
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body section.exemplo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  background-color: #e0d2b9;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section.exemplo .imagedoc {
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body section.exemplo .giimg {
+  max-width: 100%;
+}
+
+body section.exemplo .quote {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 18px;
+  padding: 20px;
+}
+
+body .ajudar {
+  height: 65vh auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+body .ajudar .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .ajudar .card {
+  margin-bottom: 15px;
+}
+
+body .ajudar .card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  height: 186px;
+}
+
+body section.contato {
+  height: auto;
+  background-color: black;
+  color: white;
+  margin-bottom: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body section.contato .map {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px;
+}
+
+body section.contato .map .localizacao {
+  width: 100%;
+  height: 100%;
+}
+
+body section.contato .textcontato {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media (min-width: 850px) {
+  body {
+    font-size: 25px;
+  }
+  body ul.nav {
+    font-size: 30px;
+  }
+  body .banner {
+    height: 100vh;
+  }
+  body .banner .texttag {
+    opacity: 0.8;
+    position: absolute;
+    top: 70%;
+  }
+  body .banner .texttag h1 {
+    font-size: 60px;
+  }
+  body section.explicativo {
+    height: 50vh;
+  }
+  body section.exemplo {
+    height: 50vh;
+  }
+  body section.exemplo .imagedoc {
+    padding: 10px;
+    padding-left: 30px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  body section.exemplo .giimg {
+    max-width: 100%;
+  }
+  body section.exemplo .quote {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 25px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body section.exemplo .giimg {
+    max-width: 100%;
+    max-height: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body section.exemplo .giimg {
+    width: 250px;
+    height: 50%;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    font-size: 50px;
+  }
+  body ul.nav {
+    font-size: 50px;
+  }
+  body h2,
+  body h3,
+  body h4 {
+    font-size: 50px;
+  }
+  body .banner {
+    height: 100vh;
+  }
+  body .banner .texttag {
+    opacity: 0.8;
+    position: absolute;
+    top: 80%;
+  }
+  body .banner .texttag h1 {
+    font-size: 80px;
+  }
+  body section.explicativo {
+    height: auto;
+    font-size: 45px;
+  }
+  body section.exemplo {
+    height: auto;
+  }
+  body section.exemplo font .imagedoc {
+    padding: 10px;
+    padding-left: 30px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  body section.exemplo .giimg {
+    width: 500px;
+    max-height: 500px;
+    padding-left: 100px;
+  }
+  body section.exemplo .quote {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 45px;
+    padding: 10px;
+    padding-right: 100px;
+  }
+  body .ajudar {
+    height: 65vh auto;
+    background-color: #945b5b;
+    font-size: 40px;
+  }
+  body .ajudar h1 {
+    font-size: 70px;
+  }
+  body .ajudar .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .ajudar .card {
+    margin-bottom: 15px;
+    width: 20rem;
+    height: auto;
+  }
+  body .ajudar .card-img-top {
+    width: 19.9rem;
+    height: 16rem;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+  body section.contato {
+    height: auto;
+    background-color: black;
+    color: white;
+    margin-bottom: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body section.contato .map {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 10px;
+  }
+  body section.contato .map .localizacao {
+    width: 90%;
+    height: 450px;
+  }
+  body section.contato .textcontato {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
