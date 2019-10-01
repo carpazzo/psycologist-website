@@ -175,6 +175,7 @@ body section.contato .textcontato {
   }
   body section.exemplo {
     height: 50vh;
+    margin-top: 55px;
   }
   body section.exemplo .imagedoc {
     padding: 10px;
@@ -185,6 +186,8 @@ body section.contato .textcontato {
   }
   body section.exemplo .giimg {
     max-width: 100%;
+    
+    max-height: 250px;
   }
   body section.exemplo .quote {
     -webkit-box-flex: 1;
@@ -193,12 +196,37 @@ body section.contato .textcontato {
     font-size: 25px;
     padding: 10px;
   }
+  body .ajudar .card {
+    margin-bottom: 15px;
+    width: 20rem;
+    height: auto;
+  }
+  body .ajudar .card-img-top {
+    width: 19.9rem;
+    height: 16rem;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
 }
 
 @media (min-width: 1024px) {
+  body section.exemplo{
+    margin-top: 25px;
+  }
   body section.exemplo .giimg {
     max-width: 100%;
-    max-height: 350px;
+    max-height: 250px;
+  }
+  body .ajudar .card {
+    margin-bottom: 15px;
+    width: 20rem;
+    height: auto;
+  }
+  body .ajudar .card-img-top {
+    width: 19.9rem;
+    height: 16rem;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
   }
 }
 
@@ -230,7 +258,7 @@ body section.contato .textcontato {
     top: 80%;
   }
   body .banner .texttag h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
   body section.explicativo {
     height: auto;
@@ -261,7 +289,6 @@ body section.contato .textcontato {
   }
   body .ajudar {
     height: 65vh auto;
-    background-color: #945b5b;
     font-size: 40px;
   }
   body .ajudar h1 {
